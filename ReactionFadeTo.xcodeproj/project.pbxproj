@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034CDEB914FFE3A900193D04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034CDEB814FFE3A900193D04 /* Cocoa.framework */; };
+		034CDEC314FFE3A900193D04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034CDEC114FFE3A900193D04 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034CDEB514FFE3A900193D04 /* ReactionFadeTo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactionFadeTo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		034CDEB814FFE3A900193D04 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		034CDEBB14FFE3A900193D04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		034CDEBC14FFE3A900193D04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		034CDEBD14FFE3A900193D04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		034CDEC014FFE3A900193D04 /* ReactionFadeTo-Info.plist */ = {isa = PBXFileReference; path = "ReactionFadeTo-Info.plist"; sourceTree = "<group>"; };
+		034CDEC214FFE3A900193D04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034CDEC414FFE3A900193D04 /* ReactionFadeTo-Prefix.pch */ = {isa = PBXFileReference; path = "ReactionFadeTo-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034CDEB214FFE3A900193D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034CDEB914FFE3A900193D04 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034CDEAA14FFE3A900193D04 = {
+			isa = PBXGroup;
+			children = (
+				034CDEBE14FFE3A900193D04 /* ReactionFadeTo */,
+				034CDEB714FFE3A900193D04 /* Frameworks */,
+				034CDEB614FFE3A900193D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034CDEB614FFE3A900193D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034CDEB514FFE3A900193D04 /* ReactionFadeTo.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034CDEB714FFE3A900193D04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034CDEB814FFE3A900193D04 /* Cocoa.framework */,
+				034CDEBA14FFE3A900193D04 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034CDEBA14FFE3A900193D04 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034CDEBB14FFE3A900193D04 /* AppKit.framework */,
+				034CDEBC14FFE3A900193D04 /* CoreData.framework */,
+				034CDEBD14FFE3A900193D04 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		034CDEBE14FFE3A900193D04 /* ReactionFadeTo */ = {
+			isa = PBXGroup;
+			children = (
+				034CDEBF14FFE3A900193D04 /* Supporting Files */,
+			);
+			path = ReactionFadeTo;
+			sourceTree = "<group>";
+		};
+		034CDEBF14FFE3A900193D04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034CDEC014FFE3A900193D04 /* ReactionFadeTo-Info.plist */,
+				034CDEC114FFE3A900193D04 /* InfoPlist.strings */,
+				034CDEC414FFE3A900193D04 /* ReactionFadeTo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034CDEB414FFE3A900193D04 /* ReactionFadeTo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034CDEC714FFE3A900193D04 /* Build configuration list for PBXNativeTarget "ReactionFadeTo" */;
+			buildPhases = (
+				034CDEB114FFE3A900193D04 /* Sources */,
+				034CDEB214FFE3A900193D04 /* Frameworks */,
+				034CDEB314FFE3A900193D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactionFadeTo;
+			productName = ReactionFadeTo;
+			productReference = 034CDEB514FFE3A900193D04 /* ReactionFadeTo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034CDEAC14FFE3A900193D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 034CDEAF14FFE3A900193D04 /* Build configuration list for PBXProject "ReactionFadeTo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 034CDEAA14FFE3A900193D04;
+			productRefGroup = 034CDEB614FFE3A900193D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034CDEB414FFE3A900193D04 /* ReactionFadeTo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034CDEB314FFE3A900193D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034CDEC314FFE3A900193D04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034CDEB114FFE3A900193D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		034CDEC114FFE3A900193D04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CDEC214FFE3A900193D04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034CDEC514FFE3A900193D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		034CDEC614FFE3A900193D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		034CDEC814FFE3A900193D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionFadeTo/ReactionFadeTo-Prefix.pch";
+				INFOPLIST_FILE = "ReactionFadeTo/ReactionFadeTo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		034CDEC914FFE3A900193D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionFadeTo/ReactionFadeTo-Prefix.pch";
+				INFOPLIST_FILE = "ReactionFadeTo/ReactionFadeTo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034CDEAF14FFE3A900193D04 /* Build configuration list for PBXProject "ReactionFadeTo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034CDEC514FFE3A900193D04 /* Debug */,
+				034CDEC614FFE3A900193D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034CDEC714FFE3A900193D04 /* Build configuration list for PBXNativeTarget "ReactionFadeTo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034CDEC814FFE3A900193D04 /* Debug */,
+				034CDEC914FFE3A900193D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034CDEAC14FFE3A900193D04 /* Project object */;
+}
